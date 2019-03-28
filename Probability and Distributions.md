@@ -1,5 +1,5 @@
-**** Probability and Distributions    
-*** 1.Introduction
+****Probability and Distributions    
+***1.Introduction
 
 Many kinds of investigations may be characterized in part by the fact that repeated experimentation,   
 under essentially the same conditions, is more or less standard procedure.  
@@ -29,6 +29,11 @@ __Venn diagrams__
 In certain discussions or considerations, the totality of all ele- ments that pertain to the discussion can be described. This set of all elements under consideration is given a special name. It is called the space. We often denote spaces by letters such as C and D.  
 Let C denote a space and let C be a subset of the set C. The set that consists of all elements of C that are not elements of C is called the comple- ment of C (actually, with respect to C)
 
+__DeMorgan’s Laws__  
+
+__set functions__  
+
+***3 The Probability Set Function
 
 
 
