@@ -35,5 +35,8 @@ __set functions__
 
 ***3 The Probability Set Function
 
-
+We denote this collection of events by B. Technically, such a collection of events is called a σ-field of subsets.   
+在数学中，某个集合X上的σ代数（σ-algebra）又叫σ域 ，是X的所有子集的集合（也就是幂集）的一个子集。这个子集满足对于可数个集合的并集运算和补集运算的封闭性（因此对于交集运算也是封闭的）。  
+A collection of events whose members are pairwise disjoint is said to be a mutually exclusive collection.  
+Let C be a sample space and let B be the set of events. Let P be a real-valued function defined on B. Then P is a probability set function if P satisfies the following three conditions:
 
