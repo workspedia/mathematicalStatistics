@@ -40,3 +40,16 @@ We denote this collection of events by B. Technically, such a collection of even
 A collection of events whose members are pairwise disjoint is said to be a mutually exclusive collection.  
 Let C be a sample space and let B be the set of events. Let P be a real-valued function defined on B. Then P is a probability set function if P satisfies the following three conditions:
 
+__equilikely case  Counting Rules__  
+multiplication rule or the mn-rule. 
+We call each such k-tuple a __permutation__ and use the symbol Pkn to denote the number of k permutations taken from a set of n elements.   
+We often use the terminology combinations instead of subsets. So we say that there are 􏰍n􏰎 __combinations__ of k things taken from a set of n things.   
+we said that a sequence of events {Cn} is a nondecreasing sequence if Cn ⊂ Cn+1
+
+***4 Conditional Probability and Independence***  
+In some random experiments, we are interested only in those outcomes that are elements of a subset C1 of the sample space C. This means, for our purposes, that the sample space is effectively the subset C1. We are now confronted with the problem of defining a probability set function with C1 as the “new” sample space.   
+
+Once defined, this probability is called the __conditional probability__ of the event C2, relative to the hypothesis of the event C1, or, more briefly, the conditional probability of C2, __given__ C1.   
+
+Since C1 is now the sample space, the only elements of C2 that concern us are those, if any, that are also elements of C1, that is, the elements of C1 ∩ C2. It seems desirable, then, to define the symbol P(C2|C1) in such a way that
+P (C1|C1) = 1 and P (C2|C1) = P (C1 ∩ C2|C1).
