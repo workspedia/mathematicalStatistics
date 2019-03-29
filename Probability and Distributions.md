@@ -52,4 +52,16 @@ In some random experiments, we are interested only in those outcomes that are el
 Once defined, this probability is called the __conditional probability__ of the event C2, relative to the hypothesis of the event C1, or, more briefly, the conditional probability of C2, __given__ C1.   
 
 Since C1 is now the sample space, the only elements of C2 that concern us are those, if any, that are also elements of C1, that is, the elements of C1 ∩ C2. It seems desirable, then, to define the symbol P(C2|C1) in such a way that
-P (C1|C1) = 1 and P (C2|C1) = P (C1 ∩ C2|C1).
+P (C1|C1) = 1 and P (C2|C1) = P (C1 ∩ C2|C1).   
+Let C1 and C2 be two events. We say that C1 and C2 are independent if P (C1 ∩ C2) = P (C1)P (C2). __P (C2|C1) = P (C2)__.  
+Suppose now that we have three events, C1, C2, and C3. We say that they are mutually independent if and only if they are pairwise independent:
+P(C1 ∩ C3) = P(C1)P(C3), P(C1 ∩ C2) = P(C1)P(C2), P(C2 ∩C3)=P(C2)P(C3),
+P(C1 ∩ C2 ∩ C3) = P(C1)P(C2)P(C3).
+
+***5 Random Variables.*** 
+The reader perceives that a sample space C may be tedious to describe if the elements of C are not numbers. We now discuss how we may formulate a rule, or a set of rules, by which the elements c of C may be represented by numbers.
+
+Let X be a function such that X(T) = 0 and X(H) = 1. Thus X is a real-valued function defined on the sample space C which takes us __from the sample space C to a space of real numbers D = {0, 1}__.  
+
+We call random variables of the first type discrete random variables, while we call those of the second type continuous random variables.  
+Besides inducing the sample space D, X also induces a probability which we call the distribution of X.
