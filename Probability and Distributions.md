@@ -65,3 +65,4 @@ Let X be a function such that X(T) = 0 and X(H) = 1. Thus X is a real-valued fun
 
 We call random variables of the first type discrete random variables, while we call those of the second type continuous random variables.  
 Besides inducing the sample space D, X also induces a probability which we call the distribution of X.
+pmf 离散型随机变量分布律 概率密度函数。 
