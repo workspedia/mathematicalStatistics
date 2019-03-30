@@ -66,3 +66,16 @@ Let X be a function such that X(T) = 0 and X(H) = 1. Thus X is a real-valued fun
 We call random variables of the first type discrete random variables, while we call those of the second type continuous random variables.  
 Besides inducing the sample space D, X also induces a probability which we call the distribution of X.
 pmf 离散型随机变量分布律 概率密度函数。 
+
+The pmf of a discrete random variable and the pdf of a continuous random variable are quite different entities. The distribution function, though, uniquely determines the probability distribution of a random variable.   
+
+shorten P({c ∈ C : X(c) ≤ x}) to P(X ≤ x).   
+Let X and Y be two random variables. We say that X and Y are equal in distribution and write X =D Y if and only if FX(x) = FY (x), for all x ∈ R.   
+As the next theorem shows, the discontinuities of a cdf have mass; that is, if x is a point of discontinuity of FX , then we have P (X = x) > 0.
+ 
+***6 Discrete Random Variables***。 
+We say a random variable is a discrete random variable if its space is either finite or countable    
+As the last example suggests, probabilities concerning a discrete random vari- able can be obtained in terms of the probabilities P(X = x), for x ∈ D. These probabilities determine an important function, which we define as   
+
+(Probability Mass Function (pmf)). Let X be a discrete random variable with space D. The probability mass function (pmf) of X is given by
+pX(x) = P[X = x], for x ∈ D.
