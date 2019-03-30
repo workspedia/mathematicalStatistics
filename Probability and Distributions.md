@@ -79,3 +79,32 @@ As the last example suggests, probabilities concerning a discrete random vari- a
 
 (Probability Mass Function (pmf)). Let X be a discrete random variable with space D. The probability mass function (pmf) of X is given by
 pX(x) = P[X = x], for x ∈ D.
+
+We have a random variable X and we know its distribution. We are interested, though, in a random variable Y which is some transformation of X, say, Y = g(X).
+
+In the first case, g is one-to-one. Then, clearly, the pmf of Y is obtained as
+pY (y) = P[Y = y] = P[g(X) = y] = P[X = g−1(y)] = pX(g−1(y)).   
+
+The second case is where the transformation, g(x), is not one-to-one. Instead of developing an overall rule, for most applications involving discrete random variables the pmf of Y can be obtained in a straightforward manner.
+
+***7 Continuous Random Variables***   
+We say a random variable is a continuous random variable if its cumulative distribution function FX(x) is a continuous function for all x ∈ R.  
+Let X be a continuous random variable with a known pdf fX. As in the discrete case, we are often interested in the distribution of a random variable Y which is some transformation of X, say, Y = g(X). Often we can obtain the pdf of Y by first obtaining its cdf.    
+
+These examples illustrate the cumulative distribution function technique.
+The graph of F(x) is shown in Figure 1.7.2. We see that F(x) is not always continuous, nor is it a step function. Accordingly, the corresponding distribution is neither of the continuous type nor of the discrete type. It may be described as a mixture of those types.
+ 
+ 8 Expectation of a Random Variable  
+ Sometimes the expectation E(X) is called the mathematical expectation of X, the expected value of X, or the mean of X. When the mean designation is used, we often denote the E(X) by μ; i.e, μ = E(X).
+ 
+ (Expectation of a Constant). Consider a constant random variable, that is, a random variable with all its mass at a constant k. This is a discrete random variable with pmf p(k) = 1. Because |k| is finite, we have by definition that
+E(k) = kp(k) = k.
+
+9 Some Special Expectations
+Let X be a random variable whose expectation exists. The mean value μ of X is defined to be μ=E(X).
+
+Let X be a random variable with finite mean μ and such that E[(X−μ)2] is finite. Then the variance of X is defined to be E[(X−μ)2]. It is usually denoted by σ2 or by Var(X).
+
+It is customary to call σ (the positive square root of the variance) the standard deviation of X (or the standard deviation of the distribution). 
+
+
