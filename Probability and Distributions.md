@@ -107,4 +107,43 @@ Let X be a random variable with finite mean μ and such that E[(X−μ)2] is fin
 
 It is customary to call σ (the positive square root of the variance) the standard deviation of X (or the standard deviation of the distribution). 
 
+Let X be a random variable such that for some h > 0, the expectation of etX exists for −h < t < h. The moment generating function of X is defined to be the function M(t) = E(etX), for −h < t < h. We use the abbreviation mgf to denote the moment generating function of a random variable.   
+Let X and Y be random variables with moment generating func- tions MX and MY , respectively, existing in open intervals about 0. Then FX (z) = FY (z) for all z ∈ R if and only if MX(t) = MY (t) for all t ∈ (−h,h) for some h > 0.
+
+
+
+Also, a theorem in analysis allows us to interchange the order of differentiation and integration (or summation in the discrete case). 
+
+M′(0) = E(X) = μ.
+σ^2 = E(X^2) − μ^2 = M′′(0) − [M′(0)]^2.
+In general, if m is a positive integer and if M(m)(t) means the mth derivative of
+M(t), we have, by repeated differentiation with respect to t, M^(m)(0) = E(X^m).
+
+E(Xm) the mth moment of the distribution, or the mth moment of X.
+
+The ratio test may be used to show that this series diverges if t > 0. Thus there does not exist a positive number h such that M(t) exists for −h < t < h. Accordingly, the distribution has the pmf p(x) of this example and does not have an mgf
+
+coefficient
+
+distributions may not have moment- generating functions. In a more advanced course, we would let i denote the imagi- nary unit, t an arbitrary real, and we would define φ(t) = E(eitX ). This expectation exists for every distribution and it is called the characteristic function of the dis- tribution.
+
+***10 Important Inequalities***
+(1) Let X be a random variable and let m be a positive integer. Suppose E[X^m] exists. If k is a positive integer and k ≤ m, then E[X^k] exists.   
+(2) (Markov’s Inequality). Let u(X) be a nonnegative function of the random variable X. If E[u(X)] exists, then for every positive constant c, P[u(X) ≥ c] ≤ E[u(X)]/c.
+
+(3) (Chebyshev’s Inequality). Let the random variable X have a distribution of probability about which we assume only that there is a finite variance σ2 [by Theorem 1.10.1, this implies the mean μ = E(X) exists]. Then for every k > 0,
+P(|X−μ|≥kσ)≤ 1, k2
+P(|X−μ|<kσ)≥1− 1. k2
+
+A convenient form of Chebyshev’s Inequality is found by taking kσ = ε for ε > 0.
+Then Equation (1.10.2) becomes
+σ2
+P(|X−μ|≥ε)≤ ε2, for allε>0. 
+The second inequality of this section involves convex functions.
+
+(Jensen’s Inequality). If φ is convex on an open interval I and X is a random variable whose support is contained in I and has finite expectation, then φ[E(X)] ≤ E[φ(X)].
+
+Let X be a nondegenerate random variable with mean μ and a finite second moment. Then μ2 < E(X2). This is obtained by Jensen’s inequality using the strictly convex function φ(t) = t2.
+
+
 
