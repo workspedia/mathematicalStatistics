@@ -22,5 +22,13 @@ We call pX2 |X1 (x2 |x1 ) the conditional pmf of the discrete type of random var
 That is, fX2|X1 (x2|x1) has the properties of a pdf of one continuous type of random variable. It is called the conditional pdf of the continuous type of random variable X2, given that the continuous type of random variable X1 has the value x1. 
 
 4 The Correlation Coefficient(相关系数)   
+It should be noted that the expected value of the product of two random variables is equal to the product of their expectations plus their covariance; that is, E(XY ) = μ1μ2 + ρσ1σ2 = μ1μ2 +cov(X,Y).
+
+5 Independent Random Variables   
+
+6 Extension to Several Random Variables
+
+
+
 
 
