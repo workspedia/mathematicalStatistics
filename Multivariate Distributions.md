@@ -11,3 +11,16 @@ In general, because these distributions are recorded in the margins of the table
 
 Hence, in the continuous case the marginal pdf of X1 is found by integrating out x2. Similarly, the marginal pdf of X2 is found by integrating out x1.
 
+2 Transformations: Bivariate Random Variables.  
+
+3 Conditional Distributions and Expectations
+In this section, we discuss conditional distributions, i.e., the distribution of one of the random variables when the other has assumed a specific value. 
+
+We discuss this first for the discrete case, which follows easily from the concept of conditional probability presented in Section
+We call pX2 |X1 (x2 |x1 ) the conditional pmf of the discrete type of random variable X2, given that the discrete type of random variable X1 = x1.
+
+That is, fX2|X1 (x2|x1) has the properties of a pdf of one continuous type of random variable. It is called the conditional pdf of the continuous type of random variable X2, given that the continuous type of random variable X1 has the value x1. 
+
+4 The Correlation Coefficient(相关系数)   
+
+
