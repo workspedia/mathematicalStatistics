@@ -29,6 +29,17 @@ It should be noted that the expected value of the product of two random variable
 6 Extension to Several Random Variables
 
 
+E is a linear operator
+f2,...,n|1(x2,...,xn|x1) is called the joint conditional pdf of X2,...,Xn, given X1 = x1.
+In addition, if several random variables are mutually independent and have the same distribution, we say that they are independent and identically dis- tributed, which we abbreviate as iid.
 
+6.1 ∗Multivariate Variance-Covariance Matrix
 
+Let X = (X1, . . . , Xn)′ be an n-dimensional random vector. Recall that we defined E(X) = (E(X1), . . . , E(Xn))′, that is, the expectation of a random vector is just the vector of the expectations of its components. Now suppose W is an m × n matrix of random variables, say, W = [Wij] for the random variables Wij, 1 ≤ i ≤ m and 1 ≤ j ≤ n.
 
+Let X = (X1, . . . , Xn)′ be an n-dimensional random vector, such that σi2 = Var(Xi) < ∞. The mean of X is μ = E[X] and we define its variance-covariance matrix to be,
+Cov(X) = E[(X − μ)(X − μ)′] = [σij ],
+where σii denotes σi2. As Exercise 2.6.8 shows, the ith diagonal entry of Cov(X) is σi2 = Var(Xi) and the (i,j)th off diagonal entry is Cov(Xi,Xj). So the name, variance-covariance matrix is appropriate.
+
+7 Transformations for Several Random Variables.  
+8 Linear Combinations of Random Variables.   
