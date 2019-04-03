@@ -6,3 +6,4 @@ Motivation for the normal distribution is found in the Central Limit Theorem, wh
 in general. 
 X has a N(μ,σ2) distribution if and only if Z = X−μ has a N(0,1) distribution.
 
+5 The Multivariate Normal Distribution。 
